@@ -77,4 +77,4 @@ e.g.
 
 This framework is currently compatible with the following coding agents:
 
-- [Antigravity](https://antigravity.com)
+- [Antigravity](https://antigravity.com) - Copy the .agent folder to your antigravity project folder. Then use the commands above to interact with the agent.
