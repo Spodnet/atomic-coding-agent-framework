@@ -6,6 +6,8 @@ This setup transforms an AI agent from a standard code generator into a discipli
 
 The core philosophy is based on **Atomic TDD & Recursive Decomposition**. Instead of writing high-level logic in a single pass, the agent decomposes every feature into "Functional Atoms" (small units of <20 lines of code).
 
+I was getting tired of AI agents generating code that was not up to par or very long winded, so I decided to create this framework to help them generate better code. It requests them to follow a strict TDD workflow and to commit their changes after each atomic task. It also requests them to follow a strict Domain-Driven Design workflow and to commit their changes after each atomic task.
+
 ### The Atomic Execution Loop
 
 For every leaf-node task, the agent is instructed to follow this exact sequence:
